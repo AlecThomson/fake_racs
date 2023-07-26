@@ -8,7 +8,6 @@ from pathlib import Path
 from typing import Tuple
 
 import astropy.units as u
-import matplotlib.pyplot as plt
 import numpy as np
 from astropy.time import Time
 from casacore.tables import table, taql
