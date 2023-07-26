@@ -104,7 +104,7 @@ def cli():
     parser = argparse.ArgumentParser(
         description=__doc__, formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
-    parser.add_argument("data_dir", type=Path)
+    parser.add_argument("data_dir", type=Path, help="Directory containing long track MSs")
     parser.add_argument(
         "--integration_time", type=float, default=15, help="Integration time in minutes"
     )
